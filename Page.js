@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import SelectBox from "../Components/SelectBox";
+import SelectBox from "./SelectBox";
 
 function Page() {
   const [selectItem, setSelectItem] = useState("카테고리 선택");
